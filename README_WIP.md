@@ -30,7 +30,7 @@ Tasks :
 4. Execute Script in psql to load Customer and Order data
 
 
-## 2. Querying Customer Data
+## 2. Querying Customer & Order Data
 
 
 **SELECT - Query data from a single table**
@@ -86,7 +86,7 @@ Tasks:
 
 
 
-## 3. Filtering Customer Data
+## 3. Filtering Customer & Order Data
 
 **WHERE – filters rows based on a specified condition**
 
@@ -147,7 +147,7 @@ Syntax:
 
 
 
-## 4. Joining Multiple Tables - 
+## 4. Joining Customer & Order Tables 
 
 
 **INNER JOIN – selects rows from one table that have the corresponding rows in other tables**
@@ -183,7 +183,7 @@ Syntax:
 
 
 
-## 5. Grouping Data
+## 5. Grouping Customer & Order Data
 
 
 **GROUP BY – divides rows into groups and applies an aggregate function on each**

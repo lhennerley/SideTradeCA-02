@@ -6,7 +6,7 @@ customer_id|customer_name|email|phone_number|address_line_1|city
 5|Annie Brennan|wujgrt.htmuwsn@ihefw.ikpstv.net|758-363-6906|36 Green Nobel Blvd.|Norwich
 6|Jenifer Harvey|jgmjr.pxxywfg@xnaanj.net|7850174429|412 Second Drive|Blackburn
 7|Chastity Shea|zxavbat.adokjws@khgas.ugufus.org|727995-7122|13 New Boulevard|Coventry
-8|Jeannie Rich|igkt.nwdije@xorjvuzqz.exatfn.net|074-316-5818|559 Rocky Fabien Avenue|Oldham
+8|Jeannie Rich|igkt.nwdije@xorjvuzqz.exatfn.net||559 Rocky Fabien Avenue|Oldham
 9|Bobbie Dalton|vdfez525@qnzs.fokxi-.net|933-4217334|96 White Nobel Drive|Oxford
 10|Shawna Merritt|loqrtqp3@sondho.com|885791-5573|72 White Second Road|Manchester
 11|Tasha Russell|bhsyjj.kxmd@nnnwmx.com|186-3878584|62 Second Drive|St Helens
@@ -33,7 +33,7 @@ customer_id|customer_name|email|phone_number|address_line_1|city
 32|Phillip Silva|andngpxl.xnfyiqgim@spkgkv.com|557-317-6271|55 Old Boulevard|Brighton
 33|Alejandro Byrd|vdumxqdc.djynkp@ovasnr.org|244432-0287|65 New Blvd.|Derby
 34|Chandra Chambers|ixsg.njtdd@heoosifh.evjzgn.net|735-5069590|88 West Nobel Freeway|Manchester
-35|Myron Nixon|pchaifkl.wptgmwdh@dvizpd.net|9079091370|831 North Rocky Clarendon Blvd.|Luton
+35|Myron Nixon|pchaifkl.wptgmwdh@dvizpd.net||831 North Rocky Clarendon Blvd.|Luton
 36|Laura Garza|xvnz5@hzyec.zirkyj.com|030-3742864|136 White Oak Way|St Helens
 37|Johnathan Weaver|zxmz.hlenn@wxecsk.org|8319596397|46 New Avenue|Kingston upon Hull
 38|Jamal Benitez|irjb.qxttmjyn@ruhm.ukqnxb.com|226558-2698|27 Hague St.|Slough
@@ -3226,7 +3226,7 @@ customer_id|customer_name|email|phone_number|address_line_1|city
 5049|Warren Marsh|bbpgjbm.ikupd@txnidc.com|557-6218647|680 North Hague St.|Kingston upon Hull
 5050|Raymond Sexton|sfzpj6@jrn-qc.org|735-3685604|357 East Rocky Oak Avenue|Blackpool
 5051|Robbie Ryan|ldqtszy.xahfynwnd@lutu.btdosg.com|351399-7806|352 West Rocky Milton St.|Gloucester
-5052|Bennie Kaiser|xrkbzmaq.rpfhl@mnbkuq.wlpfug.com|813-6669697|11 Green Nobel Parkway|Oldham
+5052|Bennie Kaiser|xrkbzmaq.rpfhl@mnbkuq.wlpfug.com||11 Green Nobel Parkway|Oldham
 5053|Sherry Maddox|pghgd.qagyyce@iaxft.qca-em.net|916-259-8431|69 Old Way|Crawley
 5054|Melody Dodson|wgkaz.ezvy@dwrgsk.net|462336-6955|81 South White Fabien Way|Walsall
 5055|Randall Clark|tjfx1@qatgjsoce.vcabgw.com|7925193239|823 East Second Boulevard|Liverpool
@@ -4617,7 +4617,7 @@ customer_id|customer_name|email|phone_number|address_line_1|city
 6837|Martin Nicholson|kulqsrv23@tpgnmokw.x-yxhc.org|827-7016055|742 White Oak Boulevard|Colchester
 6838|Joan Park|fazrca@mjvob.tyalf-.net|538609-9106|586 West First Parkway|Leicester
 6839|Dwight Mitchell|jowksujs0@qrpdpcux.-izfdi.org|117007-8752|31 Hague Boulevard|Northampton
-6840|Kirk Ruiz|iecxh.sfpkuhcosl@mjqxdewn.klp-qj.com|460-1238257|419 North Green Milton Avenue|Exeter
+6840|Kirk Ruiz|iecxh.sfpkuhcosl@mjqxdewn.klp-qj.com||419 North Green Milton Avenue|Exeter
 6841|Sherri Greer|giid35@fxuhuabph.gzrk-o.org|594520-4674|571 Hague Avenue|Eastbourne
 6842|Joey Pennington|zkdxs.cuezygk@qptdqo.net|8473188789|727 New Freeway|Crawley
 6843|Doris Duke|csohqxcw5@ifcvrgwpj.wfqujv.org|759-826-1599|293 New St.|Swindon
@@ -6975,7 +6975,7 @@ customer_id|customer_name|email|phone_number|address_line_1|city
 1975|Brandie Morrison|iwzjqkff@dmtq-m.org|338-651-0925|27 Rocky Second St.|Birmingham
 1976|Charlie Daniel|hojgwnmm.hdsqzjdrxo@takifnglr.zpvtms.com|264128-3098|342 White Oak Boulevard|Birmingham
 1977|Felix Palmer|xtraqpvo.niotpeui@izeblu.org|501-705-0529|11 Green New Boulevard|Birmingham
-1978|Kurt James|ufwkeurt@nqzwx.xf-rzc.net|153-6860473|45 Hague Parkway|Birmingham
+1978|Kurt James|ufwkeurt@nqzwx.xf-rzc.net||45 Hague Parkway|Birmingham
 1979|Shonda Werner|tyoo.ltuio@ucwsayaa.zidbxw.org|552-978-2099|28 West Milton Way|Birmingham
 1980|Jorge Bailey|ftoebsew3@qhvdcd.org|698878-7352|502 Milton St.|Birmingham
 1981|Tim Fleming|zfwz@lypsrdv.-sirvu.com|232-521-3688|88 Rocky Hague Boulevard|Birmingham
@@ -6992,10 +6992,10 @@ customer_id|customer_name|email|phone_number|address_line_1|city
 1992|Kari Moody|tlkd@bsokfy.net|507-546-2137|32 East White Cowley Blvd.|Birmingham
 1993|Jamie Velazquez|todcbrmi@csgsmpsb.janvrz.com|2300313707|956 Rocky Old Way|Birmingham
 1994|Wendi Andrews|fqeduxcc.bycv@htjlwy.com|781-542-1449|61 Fabien Blvd.|Birmingham
-1995|Darlene Compton|qsknqhk.ecie@vequsrdi.nanxoc.org|7803311882|75 Rocky Nobel Way|Birmingham
-1996|Ismael Lawrence|zyncnpm3@sehe.oggdyo.com|7384017192|33 First Street|Birmingham
-1997|Brandon Turner|vyptmdu.igqgi@jehbjw.com|592563-3636|73 First St.|Birmingham
-1998|Chanda Obrien|jmava307@wr-efa.net|760-8667759|785 East Green Second Freeway|Birmingham
-1999|Juanita De Leon|anfg.ttgkyzpvja@vthy.nqygsd.org|2491501054|689 Oak Avenue|Birmingham
-2000|Stacey Rowe|iaos.tdxjibpts@izchgcocx.qtvanc.com|7640169232|32 Rocky Nobel Street|Birmingham
-1800|Tom Cowan|kswf.pxchctpfn@qtepzbvo.huv-le.org|580-9631583|52 Cowley St.|Birmingham
+1995|Darlene Compton|qsknqhk.ecie@vequsrdi.nanxoc.org||75 Rocky Nobel Way|Birmingham
+1996|Ismael Lawrence|zyncnpm3@sehe.oggdyo.com||33 First Street|Birmingham
+1997|Brandon Turner|vyptmdu.igqgi@jehbjw.com||73 First St.|Birmingham
+1998|Chanda Obrien|jmava307@wr-efa.net||785 East Green Second Freeway|Birmingham
+1999|Juanita De Leon|anfg.ttgkyzpvja@vthy.nqygsd.org||689 Oak Avenue|Birmingham
+2000|Stacey Rowe|iaos.tdxjibpts@izchgcocx.qtvanc.com||32 Rocky Nobel Street|Birmingham
+1800|Tom Cowan|kswf.pxchctpfn@qtepzbvo.huv-le.org||52 Cowley St.|Birmingham

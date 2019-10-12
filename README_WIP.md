@@ -38,12 +38,12 @@ Replace $RespositoryDirectory$ with your repository home directory e.g C:\Code\S
 
 Syntax:
 
-`SELECT
-   column_1,
-   column_2,
-   ...
-FROM
-   table_name;`
+`SELECT  
+   column_1,  
+   column_2,  
+   ...  
+FROM  
+   table_name;`  
    
 Tasks:    
 
@@ -190,7 +190,7 @@ LEFT JOIN B ON A .pka = B.fka;`
 
 Syntax: 
 
-> SELECT column_1, aggregate_function(column_2)
+SELECT column_1, aggregate_function(column_2)
 FROM tbl_name
 GROUP BY column_1;
 

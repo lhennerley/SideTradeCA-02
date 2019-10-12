@@ -190,9 +190,9 @@ LEFT JOIN B ON A .pka = B.fka;`
 
 Syntax: 
 
-`SELECT column_1, aggregate_function(column_2)
+> SELECT column_1, aggregate_function(column_2)
 FROM tbl_name
-GROUP BY column_1;`
+GROUP BY column_1;
 
 Tasks: 
 

@@ -11,26 +11,23 @@ Syntax:
 
 Tasks :
 
-1. Replace $SchemaName$ with an appropriate schema name
+1. Replace `$SchemaName$` with an appropriate schema name
 
 
 **Create Table's**
 
-SideTradeCA-02\DatabaseScripts
-- create_customer_table.sql
-- create_order_table.sql
-
-1. Replace $SchemaName$ with your schema name
+1. Open '$RespositoryDirectory$'\SideTradeCodeAcademy\SideTradeCA-02\create_customer_table.sql
+2. Copy sql to Azure Data Studio
+3. Replace `$SchemaName$` with your schema name
+4. Execute sql to create customer and order table
 
 
 **Load Data**
 
-\copy $SchemaName$.customer(customer_id,customer_name, email, phone_number, address_line_1, city) FROM '$RespositoryDirectory$\SideTradeCA-02\DataFiles\customer.csv' DELIMITER '|' CSV HEADER
-\copy $SchemaName$.order(order_id, customer_id, order_date, total_amount, order_status_id) FROM '$RespositoryDirectory$\SideTradeCodeAcademy\SideTradeCA-02\DataFiles\order.csv' DELIMITER '|' CSV HEADER
-
-Replace $SchemaName$ with your schema name
-Replace $RespositoryDirectory$ with your repository home directory e.g C:\Code\SideTradeCodeAcademy
-
+1. Open '$RespositoryDirectory$'\SideTradeCA-02\copy_customer_and_order_data.txt
+2. Replace `$SchemaName$` with your schema name
+3. Replace `$RespositoryDirectory$` with your repository home directory e.g C:\Code\SideTradeCodeAcademy
+4. Execute Script in psql to load Customer and Order data
 
 
 ## 2. Querying Customer Data
@@ -40,12 +37,12 @@ Replace $RespositoryDirectory$ with your repository home directory e.g C:\Code\S
 
 Syntax:
 
-`SELECT    
+>SELECT    
    column_1,    
    column_2,    
    ...    
-FROM    
-   table_name`    
+ FROM    
+   table_name;    
    
 Tasks:    
 
@@ -58,12 +55,12 @@ Tasks:
 
 Syntax: 
 
-`SELECT
+>SELECT
    column_1,
    column_2
-FROM
+ FROM
    table_name
-ORDER BY
+ ORDER BY
    column_1 ASC,
    column_2 DESC;`
    
@@ -192,9 +189,9 @@ LEFT JOIN B ON A .pka = B.fka;`
 
 Syntax: 
 
-> SELECT column_1, aggregate_function(column_2)  
-FROM tbl_name  
-GROUP BY column_1  
+>SELECT column_1, aggregate_function(column_2)  
+ FROM tbl_name  
+ GROUP BY column_1  
 
 Tasks: 
 

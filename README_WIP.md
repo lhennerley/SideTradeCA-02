@@ -5,7 +5,9 @@
 
 **Create Schema**
 
-Syntax: `CREATE SCHEMA $SchemaName$;`
+Syntax: 
+
+> CREATE SCHEMA $SchemaName$;
 
 Tasks :
 
@@ -38,12 +40,12 @@ Replace $RespositoryDirectory$ with your repository home directory e.g C:\Code\S
 
 Syntax:
 
-`SELECT  
-   column_1,  
-   column_2,  
-   ...  
-FROM  
-   table_name`  
+`SELECT    
+   column_1,    
+   column_2,    
+   ...    
+FROM    
+   table_name'    
    
 Tasks:    
 

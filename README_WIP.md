@@ -43,7 +43,7 @@ Syntax:
    column_2,  
    ...  
 FROM  
-   table_name;`  
+   table_name`  
    
 Tasks:    
 

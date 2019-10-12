@@ -16,7 +16,7 @@ Tasks :
 
 **Create Table's**
 
-1. Open '$RespositoryDirectory$'\SideTradeCodeAcademy\SideTradeCA-02\create_customer_table.sql
+1. Open `$RespositoryDirectory$\SideTradeCodeAcademy\SideTradeCA-02\create_customer_table.sql`
 2. Copy sql to Azure Data Studio
 3. Replace `$SchemaName$` with your schema name
 4. Execute sql to create customer and order table
@@ -24,9 +24,9 @@ Tasks :
 
 **Load Data**
 
-1. Open '$RespositoryDirectory$'\SideTradeCA-02\copy_customer_and_order_data.txt
+1. Open `$RespositoryDirectory$'\SideTradeCA-02\copy_customer_and_order_data.txt`
 2. Replace `$SchemaName$` with your schema name
-3. Replace `$RespositoryDirectory$` with your repository home directory e.g C:\Code\SideTradeCodeAcademy
+3. Replace `$RespositoryDirectory$` with your repository home directory e.g `C:\Code\SideTradeCodeAcademy`
 4. Execute Script in psql to load Customer and Order data
 
 
@@ -62,7 +62,7 @@ Syntax:
    table_name
  ORDER BY
    column_1 ASC,
-   column_2 DESC;`
+   column_2 DESC;
    
 Tasks:    
    
@@ -74,10 +74,10 @@ Tasks:
 
 Syntax: 
 
-`SELECT
+>SELECT
    DISTINCT column_1
-FROM
-   table_name;`
+ FROM
+   table_name;
    
 Tasks:    
    
@@ -92,9 +92,9 @@ Tasks:
 
 Syntax:
 
-`SELECT select_list
-FROM table_name
-WHERE condition;`
+>SELECT select_list
+ FROM table_name
+ WHERE condition;
 
 Tasks: 
 
@@ -102,7 +102,7 @@ Tasks:
 2. Select Customers from Birmingham or London
 3. Select Customers not from Birmingham
 4. Select Orders after 30th June 2019 
-5. Select Orders equal to or greater £100
+5. Select Orders equal to or greater to £100
 6. Select Orders after 30th June 2019, and equal to or greater £100 
 
 
@@ -110,11 +110,11 @@ Tasks:
 
 Syntax: 
 
-`SELECT
+>SELECT
    *
-FROM
+ FROM
    table_name
-LIMIT n;`
+ LIMIT n;
 
 Tasks: 
 
@@ -125,24 +125,25 @@ Tasks:
 
 Syntax: 
 
-`value IS NULL`
-`value IS NOT NULL`
+>value IS NULL
 
 Tasks : 
 
-1. Select Customer with No Phone Number
+1. Select Customer with no Phone Number
 2. Select Customers with Phone Numbers
 
 
 **Table & column aliases – how to use table and column aliases in a query**
 
-`SELECT
-    column_list
-FROM
-    table_name AS alias_name;`
+Syntax:
 
-`SELECT column_name AS alias_name
-FROM table;`
+>SELECT
+    column_list alias_name
+ FROM
+    table_name AS alias_name;
+
+1. Assign `address_line_1` column a temporray alias in query
+2. Assign `customer` table a temporary alias in query
 
 
 
@@ -153,14 +154,14 @@ FROM table;`
 
 Syntax: 
 
-`SELECT
+>SELECT
    A.pka,
    A.c1,
    B.pkb,
    B.c2
-FROM
+ FROM
    A
-INNER JOIN B ON A .pka = B.fka;`
+ INNER JOIN B ON A .pka = B.fka;`
 
 1. Select all orders for each Customer (Customer Name, Order Date and Order Amount).  
 
@@ -169,16 +170,16 @@ INNER JOIN B ON A .pka = B.fka;`
 
 Syntax: 
 
-`SELECT
+>SELECT
    A.pka,
    A.c1,
    B.pkb,
    B.c2
-FROM
+ FROM
    A
-LEFT JOIN B ON A .pka = B.fka;`
+ LEFT JOIN B ON A .pka = B.fka;
 
-1. Select all orders for each Customer (Customer Name, Order Date and Order Amount).  Include Customers who have never ordered.   
+1. Select all orders for each Customer (Customer Name, Order Date and Order Amount).  **Include Customers who have never ordered**.   
 
 
 

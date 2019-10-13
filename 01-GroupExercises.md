@@ -48,7 +48,7 @@ Tasks:
 
 1. Select Customer Name 
 2. Select Customer Name & Email 
-3. Select Customer Columns
+3. Select all Customer Columns
 
 
 **ORDER BY - Sort the result set returned from a query**

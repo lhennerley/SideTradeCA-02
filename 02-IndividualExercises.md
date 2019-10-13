@@ -4,13 +4,13 @@
 
 **Load 'Order Line', 'Order Status' & 'Product' data** 
 
-Complete the data model by creating tables and loading data for
--order_line
--order_status
--product 
+Complete the data model by creating tables and loading data for :
+- order_line
+- order_status
+- product 
 
-Data Files - $RespositoryDirectory$\SideTradeCA-02\DataFiles
-Data Model - https://app.quickdatabasediagrams.com/#/d/hinlvl
+Data Files Location - $RespositoryDirectory$\SideTradeCA-02\DataFiles\
+Data Model - https://app.quickdatabasediagams.com/#/d/hinlvl
 
 
 ## 2. Query the Data Model 

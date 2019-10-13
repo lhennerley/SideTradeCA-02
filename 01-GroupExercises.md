@@ -118,7 +118,7 @@ Syntax:
 Tasks: 
 
 1. Select 5 Orders
-1. Select top 5 Orders by Value
+1. Select top 5 Orders by Total Amount
 
 
 **IS NULL – checks if a value is null or not**

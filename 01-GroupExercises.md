@@ -55,14 +55,14 @@ Tasks:
 
 Syntax: 
 
->SELECT
-   column_1,
-   column_2
- FROM
-   table_name
- ORDER BY
-   column_1 ASC,
-   column_2 DESC;
+>SELECT  
+   column_1,  
+   column_2  
+ FROM  
+   table_name  
+ ORDER BY  
+   column_1 ASC,  
+   column_2 DESC;  
    
 Tasks:    
    
@@ -74,10 +74,10 @@ Tasks:
 
 Syntax: 
 
->SELECT
-   DISTINCT column_1
- FROM
-   table_name;
+>SELECT  
+   DISTINCT column_1  
+ FROM  
+   table_name;  
    
 Tasks:    
    
@@ -92,9 +92,9 @@ Tasks:
 
 Syntax:
 
->SELECT select_list
- FROM table_name
- WHERE condition;
+>SELECT select_list  
+ FROM table_name   
+ WHERE condition;  
 
 Tasks: 
 
@@ -110,11 +110,11 @@ Tasks:
 
 Syntax: 
 
->SELECT
-   *
- FROM
-   table_name
- LIMIT n;
+>SELECT  
+   *  
+ FROM  
+   table_name  
+ LIMIT n;  
 
 Tasks: 
 
@@ -137,10 +137,10 @@ Tasks :
 
 Syntax:
 
->SELECT
-    column_list alias_name
- FROM
-    table_name AS alias_name;
+>SELECT  
+    column_list alias_name  
+ FROM  
+    table_name AS alias_name;  
 
 1. Assign `address_line_1` column a temporray alias in query
 2. Assign `customer` table a temporary alias in query
@@ -154,14 +154,14 @@ Syntax:
 
 Syntax: 
 
->SELECT
-   A.pka,
-   A.c1,
-   B.pkb,
-   B.c2
- FROM
-   A
- INNER JOIN B ON A .pka = B.fka;`
+>SELECT  
+   A.pka,  
+   A.c1,  
+   B.pkb,  
+   B.c2  
+ FROM  
+   A  
+ INNER JOIN B ON A .pka = B.fka;    
 
 1. Select all orders for each Customer (Customer Name, Order Date and Order Amount).  
 
@@ -170,14 +170,14 @@ Syntax:
 
 Syntax: 
 
->SELECT
-   A.pka,
-   A.c1,
-   B.pkb,
-   B.c2
- FROM
-   A
- LEFT JOIN B ON A .pka = B.fka;
+>SELECT  
+   A.pka,  
+   A.c1,  
+   B.pkb,  
+   B.c2  
+ FROM  
+   A  
+ LEFT JOIN B ON A .pka = B.fka;  
 
 1. Select all orders for each Customer (Customer Name, Order Date and Order Amount).  **Include Customers who have never ordered**.   
 
@@ -190,8 +190,8 @@ Syntax:
 
 Syntax: 
 
->SELECT column_1, aggregate_function(column_2)  
- FROM tbl_name  
+>SELECT column_1, aggregate_function(column_2)    
+ FROM tbl_name   
  GROUP BY column_1  
 
 Tasks: 

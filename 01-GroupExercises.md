@@ -199,4 +199,4 @@ Tasks:
 1.  Select number of Customers for each City
 2.  Select first Order date for each Customer 
 3.  Select most recent Order date for each Customer
-4.  Select total spend for each Customers (Select only Customers who have ordered at least once)
+4.  Select total spend for each Customers (Include customer who have never spent)

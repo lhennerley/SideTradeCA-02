@@ -200,4 +200,3 @@ Tasks:
 2.  Select first Order date for each Customer 
 3.  Select most recent Order date for each Customer
 4.  Select total spend for each Customers (Select only Customers who have ordered at least once)
-5.  Select total spend for each Customers (Include Customers who have never ordered)

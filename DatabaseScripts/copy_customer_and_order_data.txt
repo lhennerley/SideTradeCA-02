@@ -1,0 +1,3 @@
+\copy $SchemaName$.customer(customer_id,customer_name, email, phone_number, address_line_1, city) FROM '$RespositoryDirectory$\SideTradeCA-02\DataFiles\customer.csv' DELIMITER '|' CSV HEADER
+
+\copy $SchemaName$.order(order_id, customer_id, order_date, total_amount, order_status_id) FROM '$RespositoryDirectory$\SideTradeCodeAcademy\SideTradeCA-02\DataFiles\order.csv' DELIMITER '|' CSV HEADER

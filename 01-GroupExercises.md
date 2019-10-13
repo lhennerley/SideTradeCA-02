@@ -16,7 +16,7 @@ Tasks :
 
 **Create Table's**
 
-1. Open `$RespositoryDirectory$\SideTradeCodeAcademy\SideTradeCA-02\create_customer_table.sql`
+1. Open `$RespositoryDirectory$\SideTradeCodeAcademy\SideTradeCA-02\create_customer_and_order_table.sql`
 2. Copy sql to Azure Data Studio
 3. Replace `$SchemaName$` with your schema name
 4. Execute sql to create customer and order table

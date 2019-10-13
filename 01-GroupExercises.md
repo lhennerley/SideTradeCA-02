@@ -117,6 +117,7 @@ Syntax:
 
 Tasks: 
 
+1. Select 5 Orders
 1. Select top 5 Orders by Value
 
 

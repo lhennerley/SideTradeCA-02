@@ -1,6 +1,6 @@
 # SideTradeCA-02-WIP
 
-## 1. Loading Customer & Order Data
+## 1. Importing Customer & Order Data
 
 
 **Create Schema**

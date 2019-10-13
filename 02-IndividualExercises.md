@@ -4,7 +4,7 @@
 
 **Load 'Order Line', 'Order Status' & 'Product' data** 
 
-Complete the data model by creating tables and loading data for :
+Complete the data model by creating tables and loading data for
 -order_line
 -order_status
 -product 

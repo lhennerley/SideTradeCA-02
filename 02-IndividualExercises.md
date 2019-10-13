@@ -22,7 +22,7 @@ Data Model - https://app.quickdatabasediagams.com/#/d/hinlvl
 
 ## 3. Analyze the Data 
 
-- Uncover insights and trends in the data.  Tell us more about the Company!
+- Uncover insights and trends in the data (assume today is 30th June 2019).  Tell us more about the Company!
 
 
 

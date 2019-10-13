@@ -66,8 +66,8 @@ Syntax:
    
 Tasks:    
    
-1. Sorts Customers by the Name in ascending order
-2. Sorts Customers by the Name in descending order
+1. Sort Customers by the Name in ascending order
+2. Sort Customers by the Name in descending order
 
 **SELECT DISTINCT – remove duplicate rows in the result set**
 

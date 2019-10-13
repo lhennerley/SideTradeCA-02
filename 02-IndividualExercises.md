@@ -14,10 +14,11 @@ Data Model - https://app.quickdatabasediagams.com/#/d/hinlvl
 
 
 ## 2. Query the Data Model 
+TIP :  Use `SELECT LEFT(order_date::text,7)` to get date in Year_Month (i.e YYYY_MM) format 
 
-1. Return Total Order Amount by Month 
-2. Return Total Order Amount by Month & Product
-3. Return a List of Orders than have not yet been dispatched 
+1. Return Total Order Amount by Month ( i.e Year_Month | Total_Order_Amount )
+2. Return Total Order Amount by Month & Product (i.e Year_Month | Product_Name | Total_Order_Amount)
+3. Return a List of Customers whose Orders than have not yet been dispatched (i.e Customer_Name | Date | Order_Amount) 
 
 
 ## 3. Analyze the Data 
